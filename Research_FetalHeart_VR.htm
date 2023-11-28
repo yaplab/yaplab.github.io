@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Yap Choon Hwai</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Yap, Choon Hwai</o:LastAuthor>
-  <o:Revision>61</o:Revision>
-  <o:TotalTime>1610</o:TotalTime>
+  <o:Revision>62</o:Revision>
+  <o:TotalTime>1617</o:TotalTime>
   <o:Created>2018-11-20T09:59:00Z</o:Created>
-  <o:LastSaved>2023-11-07T15:52:00Z</o:LastSaved>
+  <o:LastSaved>2023-11-28T08:23:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>251</o:Words>
-  <o:Characters>1435</o:Characters>
-  <o:Lines>11</o:Lines>
-  <o:Paragraphs>3</o:Paragraphs>
-  <o:CharactersWithSpaces>1683</o:CharactersWithSpaces>
+  <o:Words>301</o:Words>
+  <o:Characters>1719</o:Characters>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2016</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -44,8 +44,8 @@ w\:* {behavior:url(#default#VML);}
 href="Research_FetalHeart_VR_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>90</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -687,19 +687,19 @@ href="Research_FetalHeart_VR_files/colorschememapping.xml">
 	mso-font-pitch:variable;
 	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
 @font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
-@font-face
 	{font-family:"Lucida Sans Unicode";
 	panose-1:2 11 6 2 3 5 4 2 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-2147480833 14699 0 0 191 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -1007,11 +1007,11 @@ word-wrap:break-word'>
    </v:formulas>
    <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
    <o:lock v:ext="edit" aspectratio="t"/>
-  </v:shapetype><v:shape id="_x0000_i1026" type="#_x0000_t75" style='width:150pt;
-   height:64.8pt;visibility:visible;mso-wrap-style:square'>
+  </v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
+   style='width:150pt;height:64.8pt;visibility:visible;mso-wrap-style:square'>
    <v:imagedata src="Research_FetalHeart_VR_files/image001.png" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img width=200 height=86
-  src="Research_FetalHeart_VR_files/image001.png" v:shapes="_x0000_i1026"><![endif]></span></p>
+  src="Research_FetalHeart_VR_files/image001.png" v:shapes="Picture_x0020_1"><![endif]></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:30.25pt'>
@@ -1124,10 +1124,12 @@ mso-themetint:128;text-transform:uppercase'><o:p>&nbsp;</o:p></span></p>
   normal'><span style='font-size:13.0pt;line-height:115%;font-family:"Arial",sans-serif'>Overall
   Methodology<o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:4.8pt;margin-bottom:
-  10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>3D
-  Fetal echocardiography is difficult to visualize in 2D, because fetal heart
-  anatomy and motion are in 3D and are highly complex, especially during
-  congenital heart diseases, and dysfunction. <o:p></o:p></span></p>
+  10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>Without
+  Deep Learning to extract cardiac and arterial structures and their motions, 3D
+  Fetal echocardiography with its noisy signals is difficult to visualize, and as
+  such the clinical norm remains 2D. However, the fetal heart anatomy and
+  motions are very 3D and complex, especially during congenital heart diseases
+  and dysfunction. <o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:4.8pt;margin-bottom:
   10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>We
   plan to develop <b>Virtual Reality (VR)</b> systems for such visualization,
@@ -1136,57 +1138,47 @@ mso-themetint:128;text-transform:uppercase'><o:p>&nbsp;</o:p></span></p>
   understand fetal heart physiology, immediately after scans.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:4.8pt;margin-bottom:
   10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>Users
-  can develop a good sense of a gut-feel-overview of how healthy the heart's shape
-  and motion look, and to use this in detecting and evaluating diseases. The DL
-  tools can also ensure that measurements are precise, by removing manual
-  processes and standardizing processing steps. <o:p></o:p></span></p>
+  can develop a good sense of a gut-feel-overview of how healthy the heart's
+  shape and motion look, and to use this in detecting and evaluating diseases.
+  The DL tools can automatically perform measurements to aid disease detection
+  and severity evaluation. DL is can also ensure precise and reliable
+  measurements, by removing manual processes and standardizing processing
+  steps. <o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:4.8pt;margin-bottom:
   10.0pt;margin-left:2.0pt;text-align:justify'><b><u><span style='font-family:
   "Arial",sans-serif'>Demonstration videos:<o:p></o:p></span></u></b></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:4.8pt;margin-bottom:
-  10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>Only
-  the left ventricle is segmented for display in these videos, but the proposal
-  is to fully segment all 4 chambers for display.<o:p></o:p></span></p>
+  10.0pt;margin-left:2.0pt;text-align:justify'><span style='font-family:"Arial",sans-serif'>We
+  demonstrate here some preliminary work: (Video 1) mixed reality controls of signal
+  intensity and viewing a LV segmentation and motion, (Video 2) viewing of the whole
+  4-chamber heart structure and motion, and (Video 3) demonstrating that we
+  have preliminary VR systems set up. <o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:5.05pt;margin-bottom:
   0in;margin-left:5.25pt;text-align:justify;line-height:normal'><span
   style='font-size:13.0pt;font-family:"Arial",sans-serif;mso-bidi-font-weight:
   bold'>Video 1 link - <span style='color:#4F81BD;mso-themecolor:accent1'><a
   href="Video1_Xr.mp4"><span style='mso-ascii-font-family:Arial;mso-hansi-font-family:
   Arial;mso-bidi-font-family:Arial;color:#4F81BD;mso-themecolor:accent1'>Mixed
-  Reality Viewing of our Processed Echo</span></a></span> <o:p></o:p></span></p>
+  Reality Viewing and Adjustment of LV in Fetal Echo</span></a></span> <o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:5.05pt;margin-bottom:
   0in;margin-left:5.25pt;text-align:justify;line-height:normal'><span
   style='font-size:13.0pt;font-family:"Arial",sans-serif;mso-bidi-font-weight:
   bold'>Video 2 link - <span style='color:#4F81BD;mso-themecolor:accent1'><a
-  href="Video2_VR.mp4"><span style='mso-ascii-font-family:Arial;mso-hansi-font-family:
-  Arial;mso-bidi-font-family:Arial;color:#4F81BD;mso-themecolor:accent1'>Virtual
-  Reality System</span></a> </span><o:p></o:p></span></p>
+  href="Video3_visualization_example2.mp4"><span style='mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F81BD;
+  mso-themecolor:accent1'>One possible VR s</span><span style='mso-bidi-font-size:
+  11.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+  Arial;color:#4F81BD;mso-themecolor:accent1;mso-bidi-font-weight:normal'>tyle (whole
+  heart)</span></a></span><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0in;margin-right:5.05pt;margin-bottom:
   0in;margin-left:5.25pt;text-align:justify;line-height:normal'><span
   style='font-size:13.0pt;font-family:"Arial",sans-serif;mso-bidi-font-weight:
   bold'>Video 3 link - <span style='color:#4F81BD;mso-themecolor:accent1'><a
-  href="Video3_visualization_example.mp4"><span style='mso-ascii-font-family:
-  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F81BD;
-  mso-themecolor:accent1'>One possible VR style</span></a></span><o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:5.05pt;margin-bottom:
-  0in;margin-left:5.25pt;text-align:justify;line-height:normal'><span
-  style='font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal align=center style='margin-top:0in;margin-right:4.8pt;
-  margin-bottom:10.0pt;margin-left:2.0pt;text-align:center'><span lang=DE-AT
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-ansi-language:DE-AT;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_1"
-   o:spid="_x0000_i1025" type="#_x0000_t75" alt="A person wearing a virtual reality headset&#10;&#10;Description automatically generated"
-   style='width:402pt;height:121.8pt;visibility:visible;mso-wrap-style:square'>
-   <v:imagedata src="Research_FetalHeart_VR_files/image002.jpg" o:title="A person wearing a virtual reality headset&#10;&#10;Description automatically generated"/>
-  </v:shape><![endif]--><![if !vml]><img border=0 width=536 height=162
-  src="Research_FetalHeart_VR_files/image003.jpg"
-  alt="A person wearing a virtual reality headset&#10;&#10;Description automatically generated"
-  v:shapes="Picture_x0020_1"><![endif]></span><i><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></i></p>
-  <p class=MsoNormal align=center style='margin-top:0in;margin-right:4.8pt;
-  margin-bottom:10.0pt;margin-left:2.0pt;text-align:center'><i><span
-  style='font-family:"Arial",sans-serif'>Figure 1 (A) Virtual Reality System, (B)
-  Mixed Reality viewing of 4D fetal echo with the left ventricle segmented and
-  motion tracked. <o:p></o:p></span></i></p>
+  href="Video2_VR.mp4"><span style='mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#4F81BD;mso-themecolor:accent1'>Virtual
+  Reality System</span></a> </span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-right:4.8pt'><i><span style='font-family:
+  "Arial",sans-serif'><span style='mso-spacerun:yes'> </span><o:p></o:p></span></i></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
